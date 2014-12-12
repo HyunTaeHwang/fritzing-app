@@ -21,7 +21,7 @@
 	/*top: %1px;  	 the value is swapped in at runtime in ProgramWindow::setup() */
  	padding: 0px;
 	margin-top: 0px; 
-	border: 0px;
+	border: none;
 	background: none;
 }
 
@@ -36,7 +36,7 @@
         padding-left: 6px;
         padding-right: 6px;
         background: #5f5756;
-        border: 0px;
+        border: none;
         min-width: 6.5em;
         min-height: 1.5em;
 }
@@ -106,7 +106,7 @@
 #programmingWindow #console {
 	background-color: #8c8686;
 	color: #3c3936; 
-	border: 0px;
+	border: none;
 	padding-top: 8px;
 	padding-left: 8px;
 }
@@ -234,7 +234,7 @@
 
 /* scroll bars */
 #programmingWindow QScrollBar:vertical {               
-        border: 0px; 
+        border: none; 
         background:rgba(255,255,255,10); 
         width:10px;     
         margin: 0px 0px 0px 0px; 
